@@ -1,0 +1,21 @@
+{
+  "name": "tdd-phonebook",
+  "version": "1.0.0",
+  "description": "Saves data locally in the browser using localstorage and unit testing is also applied.",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.3.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.3.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

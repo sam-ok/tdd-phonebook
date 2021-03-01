@@ -1,0 +1,10 @@
+Mocha is a javascript testing framework.
+Chai is a BDD / TDD assertion framework for node.js and the browser that can be paired with any testing framework.
+An assertion library is basically used to test if something is true or false.
+Therefore, chai can help us test whether our tests are true or false.
+
+Javascript has an inbuilt assertion library but chai offers more features.
+Follow this https://openbase.com/categories/js/best-javascript-assertion-libraries?orderBy=RECOMMENDED& link 
+for a collection of common javascript assertion libraries for both TDD and/or BDD tests.
+
+When using Mocha, it looks for a directory named "test" which contains all our test files.
