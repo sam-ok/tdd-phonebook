@@ -73,7 +73,7 @@ function removeLocalcontacts(contact) {
   localStorage.setItem("contacts", JSON.stringify(contacts));
 }
 
-function getcontacts() {
+module.exports = function getcontacts() {
   let contacts;
   if (localStorage.getItem("contacts") === null) {
     contacts = [];
